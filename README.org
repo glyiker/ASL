@@ -16,6 +16,16 @@ Professional consulting, training and integration services are provided by [[htt
 
 *** Installation
 
+**** Installation on Debian Systems
+
+To install ASL on Debian-based systems using the package manager, run:
+
+```bash
+sudo apt update
+sudo apt install libasl-dev
+
+**** Installation from repository
+
 1. Install [[http://cmake.org][cmake]] (>=3.0.2, BSD License) and the required libraries:
    -  [[https://www.khronos.org/opencl][OpenCL]] (>=1.2, OpenCL Specification License); [[https://www.khronos.org/opencl/resources/opencl-open-source-opencl-implementations][open]] or [[https://www.khronos.org/opencl/resources/opencl-commercial-implementations][closed source]] implementation, see [[https://github.com/AvtechScientific/ASL/wiki/Deployment][deployment information]]
    -  [[http://www.boost.org][boost]] (>=1.53, Boost Software License)
