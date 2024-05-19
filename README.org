@@ -20,7 +20,6 @@ Professional consulting, training and integration services are provided by [[htt
 
 To install ASL on Debian-based systems using the package manager, run:
 
-```bash
 sudo apt update
 sudo apt install libasl-dev
 
